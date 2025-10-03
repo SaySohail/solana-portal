@@ -1,19 +1,23 @@
-# Node
-frontend/node_modules/
-frontend/.next/
-frontend/out/
-frontend/dist/
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
 
-# Go
+# Go build artifacts
 *.exe
 *.out
 *.test
 *.log
 
 # Env & secrets
-frontend/.env
-frontend/.env.local
-frontend/.env.*.local
+.env
+.env.local
+.env.*.local
 
 # OS / misc
-frontend/.DS_Store
+.DS_Store
+
+# Ignore package manager lock files if needed
+# yarn.lock
+# pnpm-lock.yaml
