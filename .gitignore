@@ -1,0 +1,19 @@
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/dist/
+
+# Go
+*.exe
+*.out
+*.test
+*.log
+
+# Env & secrets
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# OS / misc
+frontend/.DS_Store
