@@ -40,14 +40,15 @@ This starts a WebSocket server at **ws://127.0.0.1:8080/connect**
 ### Frontend (Next.js)
 
 ```bash
-git clone <this-repo>
-cd <this-repo>
+git clone https://github.com/SaySohail/solana-portal.git
+cd frontend
 npm install
 ```
 
 Create `.env.local`:
 
 ```env
+NEXT_PUBLIC_WS_URL=ws://127.0.0.1:8080/connect
 NEXT_PUBLIC_SOLANA_RPC=https://devnet.helius-rpc.com/?api-key=YOUR_API_KEY
 OPENAI_API_KEY=sk-xxxxxx   # server-side key
 ```
